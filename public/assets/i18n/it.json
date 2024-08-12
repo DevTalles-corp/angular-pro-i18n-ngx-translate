@@ -1,0 +1,31 @@
+{
+  "welcomeMessage": "Benvenuto, {{ firstName }}! Come stai oggi?",
+  "changeLanguage": "Cambia lingua",
+  "pricingPage": {
+    "title": "Prezzi",
+    "description": "Qui puoi trovare i nostri piani tariffari"
+  },
+  "plans": {
+    "texts": {
+      "perMonth": "al mese",
+      "join": "Iscriviti",
+      "online-ordering": "Ordini online",
+      "limited-support": "Supporto limitato"
+    },
+    "basic": {
+      "name": "Piano Base",
+      "price": 9.99,
+      "description": "Descrizione del piano base"
+    },
+    "pro": {
+      "name": "Piano Pro",
+      "price": 20,
+      "description": "Descrizione del piano pro"
+    },
+    "enterprise": {
+      "name": "Piano Aziendale",
+      "price": 30,
+      "description": "Descrizione del piano aziendale"
+    }
+  }
+}
