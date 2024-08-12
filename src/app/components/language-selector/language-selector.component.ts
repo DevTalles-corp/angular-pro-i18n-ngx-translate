@@ -6,11 +6,12 @@ import {
   signal,
 } from '@angular/core';
 import { LanguageService } from '../../service/language.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-language-selector',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './language-selector.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
